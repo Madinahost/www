@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COPII</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .image-button-container {
+            position: relative;
+            display: inline-block;
+        }
+        .image-button {
+            position: absolute;
+            top: -50px;  
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.6);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            font-size: 1em;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .image-button:hover {
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+        .copii-image {
+            width: 100%;  
+            max-width: 300px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>COPII</h1>
+    </div>
+
+    
+    <div class="image-container">
+        <div class="image-button-container">
+            <a href="https://www2.hm.com/ro_ro/productpage.1003215016.html" target="_blank">
+                <button class="image-button">Link</button>
+            </a>
+            <img src="img/copi%201.jpg" alt="Copii Image 1" class="copii-image left">
+        </div>
+        <div class="image-button-container">
+            <a href="https://www2.hm.com/ro_ro/productpage.1203147003.html" target="_blank">
+                <button class="image-button">Link</button>
+            </a>
+            <img src="img/copi%202.jpg" alt="Copii Image 2" class="copii-image center">
+        </div>
+        <div class="image-button-container">
+            <a href="https://www2.hm.com/ro_ro/productpage.1228003002.html" target="_blank">
+                <button class="image-button">Link</button>
+            </a>
+            <img src="img/copi%203.jpg" alt="Copii Image 3" class="copii-image right">
+        </div>
+    </div>
+
+    <div class="navbar">
+        <a href="index.html"><button class="nav-button">HOME</button></a>
+        <a href="stiluri.html"><button class="nav-button">STILURI</button></a>
+        <a href="articole.html"><button class="nav-button">ARTICOLE</button></a>
+    </div>
+</body>
+</html>
